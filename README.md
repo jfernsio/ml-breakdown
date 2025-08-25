@@ -6,6 +6,38 @@
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)  
 
 ---
+📄 Problem Statement
+
+## *Context*
+
+A library dataset contains approximately *3,000 book images*. These images include:
+
+* *Book covers* (front pages)
+* Some images *do not have ISBN numbers*
+* ISBN numbers may appear in different positions on the image (usually near the word *"ISBN"*)
+
+Additionally:
+
+* An *Excel file* contains two columns:
+
+  * ID → Unique identifier for each book
+  * ISBN → Currently empty or partially filled
+
+* The *images folder* contains files named with the same ID as in the Excel file (e.g., Cew34.jpg corresponds to ID = Cew34).
+
+---
+
+## *Problem*
+
+We need to:
+
+* Extract *ISBN numbers* (10 to 13 digits) from the corresponding book images.
+* **Map each extracted ISBN to the correct ID** in the Excel file without altering the order of rows.
+* Handle cases where:
+
+  * Images are *corrupted* or *unreadable*
+  * ISBN is *not present* in the image (fill as "NULL" in the Excel file)
+
 
 ## 🔎 Overview  
 This project extracts **ISBN numbers** from book cover images and updates an Excel file with the results.  
