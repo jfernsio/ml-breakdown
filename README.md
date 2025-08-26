@@ -51,7 +51,7 @@ This project extracts **ISBN numbers** from book cover images and updates an Exc
 
 ## 📂 Dataset Example  
 
-**Excel File (books.xlsx)**  
+**Excel File (DEMO.xlsx)**  
 | ID     | ISBN |  
 |--------|------|  
 | Cew34  |      |  
