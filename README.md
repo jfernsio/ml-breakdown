@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)  
 
 ---
-📄 Problem Statement
+📄 [Problem Statement](Problem_Statement.md)
 
 ## *Context*
 
@@ -78,6 +78,16 @@ This project extracts **ISBN numbers** from book cover images and updates an Exc
 - Tesseract OCR  
 - Pandas / OpenPyXL  
 - Regex  
+
+---
+
+# Preview
+[Working of Code](preview.md)
+
+---
+# Get the images zip folder here
+
+<a href="https://drive.google.com/file/d/1xRsaPwuPhCVVuxvk4z5XsB9O9RdpSfLa/view?usp=drive_link" target="_blank">Images Data set</a>
 
 ---
 
